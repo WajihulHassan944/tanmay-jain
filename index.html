@@ -54,7 +54,7 @@
           <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-		 <li><a href="#certificates"><i class="fa fa-certificate"></i> Certificates</a></li> 
+		 <li><a href="certificates-gallery.html"><i class="fa fa-certificate"></i> My Certificates</a></li> 
       <!--  <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>  
         -->  <li><a href="#publications"><i class="bx bx-server"></i> Publications</a></li>
           <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
@@ -613,6 +613,187 @@
 
   </div>
 </section>
+
+
+<section id="recommendations" class="recommendations services" style="position:relative;">
+  <div class="container">
+    <div class="section-title">
+      <h2>Recommendations</h2>
+      <button class="post-recommendation-btn" onclick="showPopup()">Post a Recommendation</button>
+      <p>Colleagues and mentors have praised my dedication to research and leadership in projects, highlighting my contributions to sustainable energy and scientific exploration.</p>
+    </div>
+
+    <div id="recommendation-list" class="row">
+      <!-- Recommendations will be dynamically added here -->
+    </div>
+
+    <!-- Popup Form -->
+    <div id="recommendation-popup" class="popup-recommendation">
+      <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h3>Post a Recommendation</h3>
+        <form id="recommendation-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="text">Recommendation:</label>
+          <textarea id="text" name="text" required></textarea>
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  // Fetch recommendations and render only those with approvalStatus = "approved"
+  function fetchRecommendations() {
+    fetch('https://server-for-recommendations.vercel.app/recommendations')
+      .then(response => response.json())
+      .then(data => {
+        const recommendationList = document.getElementById('recommendation-list');
+        recommendationList.innerHTML = '';  // Clear the current recommendations
+        
+        data.forEach(recommendation => {
+          if (recommendation.approvalStatus === 'approved') {
+            const recommendationItem = document.createElement('div');
+            recommendationItem.classList.add('col-lg-6', 'col-md-6', 'icon-box');
+            recommendationItem.setAttribute('data-aos', 'fade-up');
+            recommendationItem.innerHTML = `
+              <div class="icon"><i class="fa fa-user"></i></div>
+              <h4 class="title">${recommendation.name}</h4>
+              <p class="description">"${recommendation.text}"</p>
+            `;
+            recommendationList.appendChild(recommendationItem);
+          }
+        });
+      })
+      .catch(error => console.error('Error fetching recommendations:', error));
+  }
+
+  // Load recommendations on page load
+  window.onload = fetchRecommendations;
+
+</script>
+
+<script>
+  function showPopup() {
+    document.getElementById('recommendation-popup').style.display = 'flex';
+  }
+
+  function closePopup() {
+    document.getElementById('recommendation-popup').style.display = 'none';
+  }
+
+  document.getElementById('recommendation-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    
+    const data = {
+      name: document.getElementById('name').value,
+      email: document.getElementById('email').value,
+      text: document.getElementById('text').value
+    };
+    
+    fetch('https://server-for-recommendations.vercel.app/recommendation', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log('Success:', data);
+	    alert('Your recommendation has been submitted. The admin will review it shortly.');
+      closePopup();
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+    });
+  });
+</script>
+<style>
+/* Button Styles */
+.post-recommendation-btn {
+  float: right;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.post-recommendation-btn:hover {
+  background-color: #45a049;
+}
+/* Popup Styles */
+.popup-recommendation {
+display:none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  justify-content: center;
+  align-items: center;
+  
+  z-index:99999;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  max-width: 90%;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.popup-recommendation .popup-content h3 {
+  margin-top: 0;
+}
+
+.popup-recommendation .popup-content .close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.popup-recommendation .popup-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-recommendation .popup-content input,
+.popup-recommendation .popup-content textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.popup-recommendation .submit-btn {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-recommendation .submit-btn:hover {
+  background-color: #45a049;
+}
+</style>
 
     <!-- ======= Testimonials Section ======= 
     <section id="testimonials" class="testimonials section-bg">

@@ -94,22 +94,246 @@
           <h2>My Certificates</h2>
          </div>
 
-       
-	   
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+       <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="tanmay.png" class="img-fluid" alt="" >
-              <div class="portfolio-links">
-                <a href="tanmay.png" data-gall="portfolioGallery" class="venobox" title="Certificate 1"><i class="bx bx-plus"></i></a>
-                <a href="#" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/one.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/one.png" data-gall="portfolioGallery" class="venobox" title="Certificate 1">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
 
-     
-        </div>
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/four.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/four.png" data-gall="portfolioGallery" class="venobox" title="Certificate 4">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/five.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/five.png" data-gall="portfolioGallery" class="venobox" title="Certificate 5">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/six.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/six.png" data-gall="portfolioGallery" class="venobox" title="Certificate 6">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/twelve.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/twelve.png" data-gall="portfolioGallery" class="venobox" title="Certificate 12">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/eighteen.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/eighteen.png" data-gall="portfolioGallery" class="venobox" title="Certificate 18">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/seven.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/seven.png" data-gall="portfolioGallery" class="venobox" title="Certificate 7">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/eight.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/eight.png" data-gall="portfolioGallery" class="venobox" title="Certificate 8">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/nine.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/nine.png" data-gall="portfolioGallery" class="venobox" title="Certificate 9">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/ten.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/ten.png" data-gall="portfolioGallery" class="venobox" title="Certificate 10">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/eleven.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/eleven.png" data-gall="portfolioGallery" class="venobox" title="Certificate 11">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/thirteen.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/thirteen.png" data-gall="portfolioGallery" class="venobox" title="Certificate 13">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/fourteen.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/fourteen.png" data-gall="portfolioGallery" class="venobox" title="Certificate 14">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/fifteen.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/fifteen.png" data-gall="portfolioGallery" class="venobox" title="Certificate 15">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/sixteen.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/sixteen.png" data-gall="portfolioGallery" class="venobox" title="Certificate 16">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/seventeen.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/seventeen.png" data-gall="portfolioGallery" class="venobox" title="Certificate 17">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/nineteen.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/nineteen.png" data-gall="portfolioGallery" class="venobox" title="Certificate 19">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/two.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/two.png" data-gall="portfolioGallery" class="venobox" title="Certificate 2">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="certificates/three.png" class="img-fluid" alt="">
+      <div class="portfolio-links">
+        <a href="certificates/three.png" data-gall="portfolioGallery" class="venobox" title="Certificate 3">
+          <i class="bx bx-plus"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
 
       </div>
     </section>
