@@ -80,7 +80,7 @@
     <div class="hero-container" data-aos="fade-in">
       <h1>TANMAY JAIN</h1>
       <p>I'm <span class="typed" data-typed-items="Driven by Curiosity, Ready to Engineer the Future"></span></p>
-	  <a href="https://www.fiverr.com/wajih2002?up_rollout=true" class="contactButton">Let's work</a>
+	  <a href="https://www.linkedin.com/in/tanmayjain0/" class="contactButton">Let's connect</a>
     </div>
   </section><!-- End Hero -->
 
@@ -190,38 +190,82 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="tanmay.png" class="img-fluid" alt="" >
+              <img src="imgone.jpg" class="img-fluid" alt="" >
               <div class="portfolio-links">
                 <a href="tanmay.png" data-gall="portfolioGallery" class="venobox" title="Certificate 1"><i class="bx bx-plus"></i></a>
-                <a href="#" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
+                
               </div>
             </div>
           </div>
 
-     
-	 
+
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="tanmay.png" class="img-fluid" alt="">
+              <img src="imgtwo.jpg" class="img-fluid" alt="" >
               <div class="portfolio-links">
-                <a href="tanmay.png" data-gall="portfolioGallery" class="venobox" title="Certificate 2"><i class="bx bx-plus"></i></a>
-                <a href="#" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
+                <a href="tanmay.png" data-gall="portfolioGallery" class="venobox" title="Certificate 1"><i class="bx bx-plus"></i></a>
+                
               </div>
             </div>
           </div>
 
 
 
-
-<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="tanmay.png" class="img-fluid" alt="">
+              <img src="imgthree.jpg" class="img-fluid" alt="" >
               <div class="portfolio-links">
-                <a href="tanmay.png" data-gall="portfolioGallery" class="venobox" title="Certificate 3"><i class="bx bx-plus"></i></a>
-                <a href="#" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
+                <a href="tanmay.png" data-gall="portfolioGallery" class="venobox" title="Certificate 1"><i class="bx bx-plus"></i></a>
+                
               </div>
             </div>
           </div>
+
+
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="imgfour.jpg" class="img-fluid" alt="" >
+              <div class="portfolio-links">
+                <a href="tanmay.png" data-gall="portfolioGallery" class="venobox" title="Certificate 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="imgfive.jpg" class="img-fluid" alt="" >
+              <div class="portfolio-links">
+                <a href="tanmay.png" data-gall="portfolioGallery" class="venobox" title="Certificate 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="imgsix.jpg" class="img-fluid" alt="" >
+              <div class="portfolio-links">
+                <a href="tanmay.png" data-gall="portfolioGallery" class="venobox" title="Certificate 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+
+
+
 
         </div>
 
@@ -459,224 +503,6 @@
 }
 </style>
 
-<!--
-<section id="portfolio" class="portfolio section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-         </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-            <!--  <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="projects/kingstreets.png" class="img-fluid" alt="" >
-              <div class="portfolio-links">
-                <a href="full-images/kingstreets.png" data-gall="portfolioGallery" class="venobox" title="Kingstreets Website"><i class="bx bx-plus"></i></a>
-                <a href="https://kingstreets.com/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="projects/ajla.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="full-images/ajla.png" data-gall="portfolioGallery" class="venobox" title="Ajla Burina Website"><i class="bx bx-plus"></i></a>
-                <a href="https://ajla-burina.vercel.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="projects/construction.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="full-images/construction.png" data-gall="portfolioGallery" class="venobox" title="All County Construction Website"><i class="bx bx-plus"></i></a>
-                <a href="https://construction-website-s4.vercel.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="projects/fantasy.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="full-images/fantasy.png" data-gall="portfolioGallery" class="venobox" title="Fantasymmadness Website"><i class="bx bx-plus"></i></a>
-                <a href="https://fantasymmadness.com/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="projects/jax.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="full-images/store.png" data-gall="portfolioGallery" class="venobox" title="Merchandise Store"><i class="bx bx-plus"></i></a>
-                <a href="https://merchandise-store-iota.vercel.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="projects/phoebe.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="projects/phoebe.png" data-gall="portfolioGallery" class="venobox" title="Model Website"><i class="bx bx-plus"></i></a>
-                <a href="http://phoebe-chok.vercel.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="projects/sweet.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="full-images/sweet.png" data-gall="portfolioGallery" class="venobox" title="Sweet Spot Desserts Website"><i class="bx bx-plus"></i></a>
-                <a href="https://sweetsportdesserts.vercel.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="projects/thilina.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="full-images/thilina.png" data-gall="portfolioGallery" class="venobox" title="Thilina Portfolio Website"><i class="bx bx-plus"></i></a>
-                <a href="http://thilina.vercel.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="projects/anya.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="full-images/anya.png" data-gall="portfolioGallery" class="venobox" title="Anya Narayan Website"><i class="bx bx-plus"></i></a>
-                <a href="https://anyanarayan.vercel.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-
-<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="projects/brothsmen.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="full-images/brothsmen.png" data-gall="portfolioGallery" class="venobox" title="Brothsmen Website"><i class="bx bx-plus"></i></a>
-                <a href="https://brothsmen.vercel.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-
-
-<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="projects/speakout.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="full-images/speakout.png" data-gall="portfolioGallery" class="venobox" title="Speakout Website"><i class="bx bx-plus"></i></a>
-                <a href="https://speakout-front.onrender.com/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-
-<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="projects/react-expense-tracker.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="projects/react-expense-tracker.png" data-gall="portfolioGallery" class="venobox" title="Speakout Website"><i class="bx bx-plus"></i></a>
-                <a href="#" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-
-
-
-<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="projects/react-restaurant.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="full-images/react-restaurant-app.png" data-gall="portfolioGallery" class="venobox" title="Speakout Website"><i class="bx bx-plus"></i></a>
-                <a href="#" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-	
--->
-
-<!--
-
-<section id="certifications" class="certifications services">
-    <div class="container">
-
-        <div class="section-title">
-            <h2>Certifications</h2>
-            <p>Here are my certifications in various digital marketing platforms:</p>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-                <div class="icon"><i class="fa fa-google"></i></div>
-                <h4 class="title">Google Digital Academy (Skillshop)</h4>
-                <ul class="description" >
-                    <li >Google Analytics</li>
-                    <li>Blueprint Planning Media Professional</li>
-                    <li>Certificación de Publicidad en Búsqueda de Google Ads _ Google</li>
-                    <li>Certificación en Publicidad Display Google Ads</li>
-                    <li>Certificación de Medición de Google Ads</li>
-                    <li>Certificación de anuncios Shopping</li>
-                    <li>Certificación en Publicidad en Móviles</li>
-                    <li>Certificación en Publicidad en video</li>
-                    <li>Examen certificación Display & Video 360</li>
-                </ul>
-            </div>
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                <div class="icon"><i class="fa fa-facebook"></i></div>
-                <h4 class="title">Facebook Certified Media Professional</h4>
-                <ul class="description">
-                    <li><a href="https://www.credly.com/badges/029a2fa0-7687-452f-80de-fafe2e5d40e6" style="text-decoration:none;color:#333;">Facebook Certified Media Buying Professional</a></li>
-                    <li><a href="https://www.credly.com/badges/6814ada2-6c87-48d6-a5d9-c1aa472308ed" style="text-decoration:none;color:#333;">Facebook Certified Media Planning Professional</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                <div class="icon"><i class="fa fa-apple"></i></div>
-                <h4 class="title">Apps Marketing ASA</h4>
-                <ul class="description">
-                    <li>Apps Marketing ASA</li>
-                </ul>
-            </div>
-			
-			
-        </div>
-
-    </div>
-</section>
-
--->
 
 
 
@@ -1142,10 +968,10 @@ orderFormSubmit.addEventListener("submit", function(event) {
       <div class="copyright">
         &copy; Copyright <strong><span>2024</span></strong>
       </div>
-      <div class="credits">
+  <!--    <div class="credits">
        Credit <a href="#">Wajih ul Hassan</a>
       </div>
-    </div>
+   --> </div>
   </footer><!-- End  Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
