@@ -30,9 +30,6 @@
 </head>
 
 <body>
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55FB5M5B"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
 
   <!-- ======= Mobile nav toggle button ======= -->
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -54,12 +51,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <nav class="nav-menu">
         <ul>
-          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-		 <li><a href="#certifications"><i class="fa fa-certificate"></i> Certifications</a></li> 
-        <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>  
-          <li><a href="#services"><i class="bx bx-server"></i> Services</a></li>
+		 <li><a href="#certificates"><i class="fa fa-certificate"></i> Certificates</a></li> 
+      <!--  <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>  
+        -->  <li><a href="#publications"><i class="bx bx-server"></i> Publications</a></li>
           <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
 
         </ul>
@@ -121,10 +118,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </ul>
           </div>
         </div>
-        <p>
-          A dedicated student passionate about engineering and sustainable energy solutions, leading impactful initiatives like HydroVolt. Aspiring to revolutionize energy through hydrogen fuel cell technology.
-        </p>
-      </div>
+      <p>
+  An enthusiastic student dedicated to engineering and sustainable energy, actively leading projects such as HydroVolt. With a strong commitment to innovation, I aim to transform the energy landscape through hydrogen fuel cell technology, striving to create environmentally friendly solutions that contribute to a sustainable future.
+</p>
+</div>
     </div>
   </div>
 </section>
@@ -132,7 +129,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!-- ======= Facts Section ======= -->
-<section id="facts" class="facts resume service services">
+<section id="facts" class="facts resume service services section-bg">
   <div class="container">
     <div class="section-title">
       <h2>Achievements</h2>
@@ -176,6 +173,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 </section><!-- End Facts Section -->
+
+
+
+
+<section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>My Gallery</h2>
+         </div>
+
+       
+	   
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="tanmay.png" class="img-fluid" alt="" >
+              <div class="portfolio-links">
+                <a href="tanmay.png" data-gall="portfolioGallery" class="venobox" title="Certificate 1"><i class="bx bx-plus"></i></a>
+                <a href="#" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+     
+	 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="tanmay.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="tanmay.png" data-gall="portfolioGallery" class="venobox" title="Certificate 2"><i class="bx bx-plus"></i></a>
+                <a href="#" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+
+
+<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="tanmay.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="tanmay.png" data-gall="portfolioGallery" class="venobox" title="Certificate 3"><i class="bx bx-plus"></i></a>
+                <a href="#" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+	
+
+
+
+
+
+
+
 <!-- ======= Skills Section ======= -->
 <section id="skills" class="skills section-bg">
   <div class="container">
@@ -290,17 +349,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </ul>
         </div>
 
-        <h3 class="resume-title">Education</h3>
-        <div class="resume-item">
-          <h4>International Baccalaureate (IB Diploma)</h4>
-          <h5>2023 - 2025</h5>
-          <p><em>The British School, New Delhi</em></p>
-          <ul>
-            <li>Higher Level in Chemistry, Physics, Mathematics</li>
-            <li>Standard Level in English, Economics, Spanish</li>
-            <li>Distinction in IGCSE (2023)</li>
-          </ul>
-        </div>
+       <h3 class="resume-title">Education</h3>
+
+<div class="resume-item">
+  <h4>International Baccalaureate (IB Diploma)</h4>
+  <h5>2023 - 2025</h5>
+  <p><em>The British School, New Delhi</em></p>
+  <ul>
+    <li>Higher Level in Chemistry, Physics, Mathematics</li>
+    <li>Standard Level in English, Economics, Spanish</li>
+  </ul>
+</div>
+
+<div class="resume-item">
+  <h4>Cambridge IGCSE</h4>
+  <h5>2021 - 2023</h5>
+  <p><em>The British School, New Delhi</em></p>
+  <ul>
+    <li>Subjects: English, Mathematics, Chemistry, Physics, Computer Science</li>
+    <li>Achieved Distinction in all subjects</li>
+  </ul>
+</div>
+
       </div>
 
    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
@@ -610,44 +680,108 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<section id="services" class="services">
+<section id="certificates" class="services section-bg">
   <div class="container">
 
     <div class="section-title">
-      <h2>Certifications</h2>
+      <h2>Certificates</h2>
       <p>As a passionate student with a strong foundation in chemistry, mathematics, and physics, I have earned several certifications that reflect my dedication to academic excellence and problem-solving in the field of sustainable technology.</p>
     </div>
 
     <div class="row">
       <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
         <div class="icon"><i class="fa fa-flask"></i></div>
-        <h4 class="title"><a href="">Gold Medal - UKMT Senior Mathematics Challenge</a></h4>
+        <h4 class="title"><a href="certificates-gallery.html">Gold Medal - UKMT Senior Mathematics Challenge</a></h4>
         <p class="description">Awarded for exceptional performance in mathematics, demonstrating advanced problem-solving skills.</p>
       </div>
       <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
         <div class="icon"><i class="fa fa-certificate"></i></div>
-        <h4 class="title"><a href="">Bronze Certificate - UK Chemistry Olympiad</a></h4>
+        <h4 class="title"><a href="certificates-gallery.html">Bronze Certificate - UK Chemistry Olympiad</a></h4>
         <p class="description">Recognized for deep understanding and passion for chemistry in a globally competitive setting.</p>
       </div>
       <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
         <div class="icon"><i class="fa fa-trophy"></i></div>
-        <h4 class="title"><a href="">Avogadro Exam - 1st in School, 4th in Delhi</a></h4>
+        <h4 class="title"><a href="certificates-gallery.html">Avogadro Exam - 1st in School, 4th in Delhi</a></h4>
         <p class="description">Demonstrated proficiency in chemistry through exceptional results in the University of Waterloo's Avogadro Exam.</p>
       </div>
       <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
         <div class="icon"><i class="fa fa-book"></i></div>
-        <h4 class="title"><a href="">International General Certificate of Secondary Education (IGCSE)</a></h4>
+        <h4 class="title"><a href="certificates-gallery.html">International General Certificate of Secondary Education (IGCSE)</a></h4>
         <p class="description">Achieved distinction in all subjects, building a strong foundation in mathematics, science, and humanities.</p>
       </div>
       <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
         <div class="icon"><i class="fa fa-trophy"></i></div>
-        <h4 class="title"><a href="">Silver Medal - UKMT SMC and IMC</a></h4>
+        <h4 class="title"><a href="certificates-gallery.html">Silver Medal - UKMT SMC and IMC</a></h4>
         <p class="description">Recognized for consistent high-level performance in mathematical problem-solving competitions.</p>
       </div>
       <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
         <div class="icon"><i class="fa fa-users"></i></div>
-        <h4 class="title"><a href="">Principal's Award - The British School</a></h4>
+        <h4 class="title"><a href="certificates-gallery.html">Principal's Award - The British School</a></h4>
         <p class="description">Acknowledged for outstanding academic performance, leadership, and contributions to school life.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section id="publications" class="research services">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Research & Publications</h2>
+      <p>My research focuses on critical challenges in sustainable energy and advanced physics, aiming to contribute to ongoing scientific discussions and innovations.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up">
+        <div class="icon"><i class="fa fa-flask"></i></div>
+        <h4 class="title">Research Paper on Air Resistance and Projectile Motion</h4>
+        <ul class="description">
+          <li>A detailed study investigating the effects of air resistance on projectile motion, combining theoretical and experimental approaches. This work has been widely recognized and used as a reference by younger students.</li>
+         </ul>
+      </div>
+	  <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up">
+        <div class="icon"><i class="fa fa-flask"></i></div>
+        <h4 class="title">Role of Hydrogen Storage Technology in Addressing Safety and Scalability Challenges</h4>
+        <ul class="description">
+          <li>A paper exploring the potential of hydrogen fuel cells in revolutionizing India’s transportation sector, contributing to the discussion on sustainable energy solutions.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="cas" class="cas services section-bg">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Creativity, Activity & Service (CAS)</h2>
+      <p>As part of my IB Diploma Programme, I have been involved in various initiatives that demonstrate my commitment to creativity, physical activity, and community service.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+        <div class="icon"><i class="fa fa-users"></i></div>
+        <h4 class="title">Volunteer - Karmaarth Foundation</h4>
+        <p class="description">Committed over 100 hours teaching underprivileged children subjects like physics, chemistry, and mathematics, while promoting social responsibility and critical thinking.</p>
+      </div>
+
+      <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+        <div class="icon"><i class="fa fa-tree"></i></div>
+        <h4 class="title">Event Organizer - Earth Day</h4>
+        <p class="description">Spearheaded a tree-planting initiative and cultural awareness activities on Earth Day, advocating for environmental sustainability and cross-cultural understanding.</p>
+      </div>
+
+      <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+        <div class="icon"><i class="fa fa-microphone"></i></div>
+        <h4 class="title">Organizer - Inter-House Debate & Sports Day</h4>
+        <p class="description">Organized and emceed school events such as Inter-House Debates and Sports Day, showcasing public speaking and event management skills while fostering a competitive and inclusive environment.</p>
+      </div>
+
+      <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+        <div class="icon"><i class="fa fa-heart"></i></div>
+        <h4 class="title">Assistance - NGO Sports Day</h4>
+        <p class="description">Helped organize sports events for underprivileged children, promoting physical fitness, well-being, and community spirit.</p>
       </div>
     </div>
 
