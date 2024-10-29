@@ -53,10 +53,10 @@
 
       <nav class="nav-menu">
         <ul>
-          <li class="active"><a href="index.html#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="index.html#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="index.html#about"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="index.html#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-		 <li><a href="index.html#certificates"><i class="fa fa-certificate"></i> Certificates</a></li> 
+		 <li class="active"><a href="index.html#certificates"><i class="fa fa-certificate"></i> Certificates</a></li> 
       <!--  <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>  
         -->  <li><a href="index.html#publications"><i class="bx bx-server"></i> Publications</a></li>
           <li><a href="index.html#contact"><i class="bx bx-envelope"></i> Contact</a></li>
@@ -403,9 +403,7 @@
       <div class="copyright">
         &copy; Copyright <strong><span>2024</span></strong>
       </div>
-      <div class="credits">
-       Credit <a href="#">Wajih ul Hassan</a>
-      </div>
+     
     </div>
   </footer><!-- End  Footer -->
 
